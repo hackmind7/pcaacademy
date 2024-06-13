@@ -1,0 +1,38 @@
+#enroll {
+    padding: 2em;
+}
+
+#enroll form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#enroll .form-group {
+    margin-bottom: 20px;
+}
+
+#enroll label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#enroll input, #enroll select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+#enroll button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#enroll button[type="submit"]:hover {
+    background-color: #444;
+}
